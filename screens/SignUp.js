@@ -281,7 +281,7 @@ const SignUp = ({ navigation }) => {
     };
     return (
         <KeyboardAvoidingView behavior={Platform.OS === "android" ? "padding" : null} style={{ flex: 1 }}>
-            <LinearGradient colors={[COLORS.lime, COLORS.yellow]} style={{ flex: 1 }}>
+            <LinearGradient colors={[COLORS.lime, COLORS.emerald]} style={{ flex: 1 }}>
                 <ScrollView>
                     {renderHeader()}
                     {renderLogo()}
