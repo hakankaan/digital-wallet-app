@@ -90,6 +90,11 @@ const Tabs = () => {
                     elevation: 0,
                 }
             }}
+            tabBar={(props) => (
+                <BottomTabBar 
+                    {...props}
+                />
+            )}
         >
             <Tab.Screen
                 name="Home"
